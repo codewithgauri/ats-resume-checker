@@ -44,7 +44,7 @@ export default function SignIn() {
       <div className="mb-10">
         {/* <h1 className="text-4xl font-bold">Get Started </h1> */}
       </div>
-      <ThreeDCardDemo onClick={handleGoogleSignIn} />
+      <ThreeDCardDemo onClick={handleClick} />
       <div className=" flex justify-center items-center">
         <div className="relative inline-flex  group">
           <div
