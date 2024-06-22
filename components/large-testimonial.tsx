@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TestimonialImg from "@/public/images/large-testimonial.jpg";
+import TestimonialImg from "./Images/Avatar.webp";
 
 export default function LargeTestimonial() {
   return (
@@ -29,18 +29,23 @@ export default function LargeTestimonial() {
                 alt="Large testimonial"
               />
             </div>
+
+
+          
             <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+               "Resumatto is a lifesaver! I was applying for jobs without much success
+               until {" "}
+              <em className="italic text-gray-500"> 
+              I used Resumatto to optimize my resume. The results were immediate</em>,
+
+              I started getting interview calls and eventually landed my dream job."
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="text-gray-700">Kavya</span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <a className="text-blue-500" href="#0">
-                CTO at Microsoft
-              </a>
+              <p className="text-blue-500" >
+               Job Seeker 
+              </p>
             </div>
           </div>
         </div>

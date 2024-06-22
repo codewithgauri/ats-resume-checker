@@ -1,6 +1,8 @@
+import Footer from "@/components/ui/footer";
 import "./css/style.css";
 
 import { Inter } from "next/font/google";
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -20,10 +22,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+
       <body
         className={`${inter.variable} bg-gray-50 font-inter tracking-tight text-gray-900 antialiased`}
       >
-        <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
+        <div className="">
+          <div className=""></div>
+        </div>
+        <div className=" flex-col overflow-hidden supports-[overflow:clip]:overflow-clip h-full w-full dark:bg-dark bg-white  dark:bg-dot-black/[0.2] bg-grid-white/[0.2] relative flex items-center justify-center">
           {children}
         </div>
       </body>
